@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="assignment.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <form action="#">
+                    <table class="table_form">
+                        <tr class="row-head">
+                            <th colspan="2">
+                                <h2>Student Manager</h2>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="id">ID</label>
+                            </td>
+                            <td>
+                                <input type="text" name="id" id="id">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <span id="id_error"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="name">Name</label>
+                            </td>
+                            <td>
+                                <input type="text" name="name" id="name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <span id="name_error"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="id">Birthday</label>
+                            </td>
+                            <td>
+                                <input type="text" name="birthday" id="birthday">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <span id="birthday_error"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="phone">Phone number</label>
+                            </td>
+                            <td>
+                                <input type="text" name="phone" id="phone" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <span id="phone_error"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="center">
+                                <input type="button" value="Add Student" name="add" id="add">
+                            </td>
+                        </tr>
+                    </table>
+                    <table id="tableStudent" class="tableStudent"></table>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
