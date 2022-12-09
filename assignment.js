@@ -68,7 +68,7 @@ let addStudent = function () {
     let valid = validate();
     if (valid) {
         if (studentData.length != 0) {
-            studentJson = JSON.parse(studentData);
+            studentJson = JSON.parse(studentData);      //json.parse: chuyển đổi tượng về thành mảng 
             let check = true;
             for (let i in studentJson) {
                 if (id === studentJson[i].id) {
